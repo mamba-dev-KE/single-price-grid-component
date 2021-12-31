@@ -22,7 +22,7 @@ body {
 }
 
 main {
-	min-height: 100vh;
+	min-height: 90vh;
 	display: grid;
 	place-items: center;
 }
@@ -157,7 +157,6 @@ main {
 
 .attribution {
 	text-align: center;
-	margin-top: -2.5em;
 	padding-bottom: 1em;
 }
 
