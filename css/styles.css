@@ -156,12 +156,26 @@ main {
 }
 
 .attribution {
-	font-size: 11px;
 	text-align: center;
+	margin-top: -2.5em;
+	padding-bottom: 1em;
 }
 
 .attribution a {
-	color: hsl(228, 45%, 44%);
+	color: #595959;
+}
+
+.attribution a:hover {
+	color: #190eb8;
+}
+
+.attribution__designer {
+	margin-bottom: 0.5em;
+}
+
+.attribution__designer,
+.attribution__programmer {
+	font-size: 1.2rem;
 }
 
 @media (min-width: 600px) {
